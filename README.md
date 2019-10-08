@@ -14,7 +14,7 @@
 #### 基本图片参数
 首先打开index.php，我们可以看到这样的代码：
 ```
-  $sg[1]=""; 
+  	$sg[1]=""; 
 	$sg[2]=""; 
 	$sg[3]=""; 
 ```
@@ -24,7 +24,7 @@
 * www.example.com/image3.png
 放入随机图片列表：
 ```
-  $sg[1]="http://www.example.com/image1.png"; 
+  	$sg[1]="http://www.example.com/image1.png"; 
 	$sg[2]="http://www.example.com/image2.png"; 
 	$sg[3]="http://www.example.com/image3.png"; 
 ```
@@ -33,7 +33,7 @@
 #### 报时图片参数
 如果你不希望使用这项功能，您可以将以下代码删除：
 ```
-  if (date("i")=="00") {
+ 	if (date("i")=="00") {
  		$out="1".date("H")."00";
 		header("location:$sg[$out]"); 
 	} else { ... }
