@@ -22,6 +22,7 @@
 * `www.example.com/image1.png`
 * `www.example.com/image2.png`
 * `www.example.com/image3.png`
+
 放入随机图片列表：
 ```
   	$sg[1]="http://www.example.com/image1.png"; 
